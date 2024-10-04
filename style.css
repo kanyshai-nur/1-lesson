@@ -1,0 +1,320 @@
+* {
+    block-size: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Jost", sans-serif;
+}
+
+header {
+    background-color: #141024;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list li {
+    list-style: none;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.nav-contact {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.nav-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 84px;
+    /* margin: 40px; */
+}
+
+.hero-text {
+    width: 33%;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.hero-text p {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0 40px;
+}
+
+.hero-text button {
+    background-color: #D52027;
+    color: white;
+    font-style: 18px;
+    font-weight: 400;
+    padding: 25px 54px;
+    border: none;
+    border-radius: 6px;
+}
+
+.hero-img {
+    width: 45%;
+}
+
+.hero-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#nums {
+    margin-top: 30px 0;
+    margin: 90px;
+}
+
+#nums p {
+    font-style: 30px;
+    font-weight: 400;
+
+}
+
+#nums span {
+    font-style: 30px;
+    font-weight: 600;
+}
+
+.nums-cards {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nums-card {
+    width: 240px;
+
+}
+
+.nums-card h2 {
+    color: #D52027;
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.nums-card p {
+    color: #141024;
+    font-style: 18px;
+    font-weight: 400;
+}
+
+.conteins {
+    background-color: #F9F9F9;
+
+}
+
+#kurs {
+    margin: 150px;
+}
+
+#kurs h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 60px;
+}
+
+.kurs-tecs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.kurs-tec {
+    width: 320px;
+}
+
+.kurs-tec h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.kurs-tec p {
+    margin-top: 16px;
+    margin-bottom: 60px;
+
+}
+
+#treners {
+    display: flex;
+    justify-content: space-between;
+    margin: 140px;
+}
+
+.contens {
+    margin: 20px;
+    border: 2px solid red;
+}
+
+.contens h2 {
+    margin: 140px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.trener-tecs h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.trener-tecs p {
+    color: #141024;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.trener-tecs h4 {
+    color: #D52027;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.kkk {
+    background-color: #D52027;
+    color: white;
+    font-style: 18px;
+    font-weight: 00;
+    padding: 25px 54px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 52px;
+}
+
+#blocs h2 {
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+.bbb {
+    margin: 170px;
+}
+
+.bloc-tec {
+    display: flex;
+    justify-content: space-between;
+    margin: 170px;
+}
+
+.bloc-tecs-1 {
+    background-color: #141024;
+    color: white;
+    width: 280px;
+    height: 420px;
+    border-radius: 16px;
+    padding: 32px;
+    text-align: center;
+}
+
+.bloc-tecs-1 h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.bloc-tecs {
+    border: 1px solid rgb(138, 133, 133);
+    width: 280px;
+    height: 380px;
+    border-radius: 16px;
+    padding: 32px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.bloc-tecs h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.bloc-tecs p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #141024;
+    margin-top: 20px;
+}
+
+.bloc-tecs-1 p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.bloc-tecs-1 h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.bloc-tecs h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.contakts {
+    background-color: #D52027;
+}
+
+#hiro {
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hiro-tecs {
+    border: 2px solid blue;
+    color: white;
+    margin: 170px;
+}
+
+.hiro-tecs h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.hiro-tecs p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.hiro-adres {
+    /* padding: 0 600px; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.trene-imgk {
+    text-align: right;
+}
